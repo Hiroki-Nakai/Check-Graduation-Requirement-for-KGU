@@ -196,8 +196,9 @@ public class CheckGrades extends HttpServlet {
 	        //////////////////////////////////////////////////////////////
 
 	        String program = Get_word(x, y, w, h, document);
+	        //改行コードを削除
 	        if (program.length() >= 2){
-		        program = program.substring(0, program.length()-2);
+		        program = program.substring(0, program.length()-1);
 	        }
 	        request.setAttribute("program", program);
 
@@ -217,8 +218,9 @@ public class CheckGrades extends HttpServlet {
 	        //////////////////////////////////////////////////////////////
 
 	        String course = Get_word(x, y, w, h, document);
+	        //改行コードを削除
 	        if (course.length() >= 2){
-	        	course = course.substring(0, course.length()-2);
+	        	course = course.substring(0, course.length()-1);
 	        }
 	        request.setAttribute("course", course);
 
