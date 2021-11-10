@@ -22,7 +22,7 @@ String undergraduate = (String)request.getAttribute("undergraduate");
 <h1><a href="/" style="text-decoration:none;"><font color="dodgerblue">
 関西学院大学
 <img src="${pageContext.request.contextPath}/image/crescent.png" alt="" align="bottom" width="50" height="50">
-卒業判定
+卒業判定サイト
 </font></a></h1>
 </div>
 </header>
@@ -50,7 +50,7 @@ else{
 
 <footer>
 <div style="text-align:center">
-<a href="./PrivacyPolicy" style="text-decoration:none;"><font color="white">
+<a href="./PrivacyPolicy" style="text-decoration:none;"><font size=4 color="white">
 プライバシーポリシー
 </font>
 </a>
