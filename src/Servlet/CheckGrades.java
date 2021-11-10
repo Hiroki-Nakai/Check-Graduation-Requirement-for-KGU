@@ -196,7 +196,9 @@ public class CheckGrades extends HttpServlet {
 	        //////////////////////////////////////////////////////////////
 
 	        String program = Get_word(x, y, w, h, document);
-	        program = program.substring(0, program.length()-2);
+	        if (program.length() >= 2){
+		        program = program.substring(0, program.length()-2);
+	        }
 	        request.setAttribute("program", program);
 
 	        //専攻・コースの取得-----------------------------------------------------------------
@@ -215,7 +217,9 @@ public class CheckGrades extends HttpServlet {
 	        //////////////////////////////////////////////////////////////
 
 	        String course = Get_word(x, y, w, h, document);
-	        course = course.substring(0, course.length()-2);
+	        if (course.length() >= 2){
+	        	course = course.substring(0, course.length()-2);
+	        }
 	        request.setAttribute("course", course);
 
 	        //履修状況のテキストと座標位置を取得
