@@ -9,7 +9,7 @@ String undergraduate = (String)request.getAttribute("undergraduate");
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>関西学院大学 卒業判定システム 再アップロード要求画面</title>
+<title>関西学院大学 卒業判定サイト 再アップロード要求画面</title>
 <link rel="stylesheet" href="<%=request.getContextPath() %>/style.css">
 </head>
 <body>

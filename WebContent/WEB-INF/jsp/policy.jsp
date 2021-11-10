@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>関西学院大学 卒業判定システム プライバシーポリシー</title>
+<title>関西学院大学 卒業判定サイト プライバシーポリシー</title>
 <link rel="stylesheet" href="<%=request.getContextPath() %>/style.css">
 </head>
 
