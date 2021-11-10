@@ -12,9 +12,13 @@
 
 <header>
 <div style="text-align:center">
-<h1><font color="dodgerblue">関西学院大学
+<!-- heroku用であればhref="/"とするとルートディレクトリを指定してくれる。以下はローカル用
+<h1><a href="./CheckGrades" style="text-decoration:none;"><font color="dodgerblue">
+ -->
+<h1><a href="/" style="text-decoration:none;"><font color="dodgerblue">
+関西学院大学
 <img src="${pageContext.request.contextPath}/image/crescent.png" alt="" align="bottom" width="50" height="50">
-卒業判定</font></h1>
+卒業判定</font></a></h1>
 </div>
 </header>
 
