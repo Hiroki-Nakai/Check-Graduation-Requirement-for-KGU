@@ -227,13 +227,14 @@ for (int p=1; p<parent.length; p++){
 
 
 <td valign="top">
+<div class="sc">
 	<table border=1>
 	<tr bgcolor="lightgrey">
-	<th rowspan="2">　</th><th rowspan="2">科目の分野・系列</th><th rowspan="2">必要単位</th>
-	<th colspan="2">単位集計</th>
+	<th rowspan="2" class="fixed01">　</th><th rowspan="2" class="fixed01">科目の分野・系列</th><th rowspan="2" class="fixed01">必要単位</th>
+	<th colspan="2" class="fixed01">単位集計</th>
 	</tr>
 	<tr bgcolor="lightgrey">
-	<th>修得</th><th>履修</th>
+	<th class="fixed02">修得</th><th class="fixed02">履修</th>
 	</tr>
 
 	<%
@@ -254,13 +255,13 @@ for (int p=1; p<parent.length; p++){
 					if( lan.contains(subjects.get(j)) ){
 						if ( Double.parseDouble(need_credit.get(j)) > complete.get(j) ){
 							if ( Double.parseDouble(need_credit.get(j)) > (complete.get(j) + taking.get(j)) ){
-								%><tr bgcolor="hotpink"><%
+								%><tr bgcolor="lightpink"><%
 								double lack = Double.parseDouble(need_credit.get(j)) - (complete.get(j) + taking.get(j));
 								//lack_credit.add(lack);
 								lack_subjects.add(j);
 							}
 							else{
-								%><tr bgcolor="aquak"><%
+								%><tr bgcolor="lightblue"><%
 								now_risyu = true;
 							}
 						}
@@ -274,13 +275,13 @@ for (int p=1; p<parent.length; p++){
 			else{
 				if ( Double.parseDouble(need_credit.get(j)) > complete.get(j) ){
 					if ( Double.parseDouble(need_credit.get(j)) > (complete.get(j) + taking.get(j)) ){
-						%><tr bgcolor="hotpink"><%
+						%><tr bgcolor="lightpink"><%
 						double lack = Double.parseDouble(need_credit.get(j)) - (complete.get(j) + taking.get(j));
 						//lack_credit.add(lack);
 						lack_subjects.add(j);
 					}
 					else{
-						%><tr bgcolor="aqua"><%
+						%><tr bgcolor="lightblue"><%
 						now_risyu = true;
 					}
 				}
@@ -308,7 +309,9 @@ for (int p=1; p<parent.length; p++){
 	%>
 
 	</table>
+</div>
 </td>
+
 
 <td valign="top">
 	<!-- <table border=0> -->
@@ -320,8 +323,8 @@ for (int p=1; p<parent.length; p++){
 <td valign="top">
 	<!-- 凡例の表 -->
 	<table border=1>
-	<tr> <th bgcolor="hotpink">必要単位数が足りていない</th> </tr>
-	<tr> <th bgcolor="aqua">履修中の単位が取得できれば，必要単位数を満たす</th> </tr>
+	<tr> <th bgcolor="lightpink">必要単位数が足りていない</th> </tr>
+	<tr> <th bgcolor="lightblue">履修中の単位が取得できれば，必要単位数を満たす</th> </tr>
 	</table>
 
 	<br>
@@ -360,7 +363,7 @@ for (int p=1; p<parent.length; p++){
 
 	<br>
 	※卒業条件の詳細は、各学部の「履修心得」・「教育課程表」をご覧ください。<br>
-	※最終的な卒業可否の判断は各個人で行ってください。<br>
+	※判定結果に誤りがある場合がありますので，最終的な卒業可否の判断は各個人で行ってください。<br>
 </td>
 
 </tr>

@@ -25,7 +25,7 @@ import org.apache.pdfbox.text.TextPosition;
 
 
 class Global{
-	  public static int test = 0;
+	  public static int test = 1;
 	  //テスト用のpdfが入力だったらtest=1
 	  //正式な成績通知書が入力だったら test=0
 }
@@ -142,7 +142,7 @@ public class CheckGrades extends HttpServlet {
 		        request.setAttribute("undergraduate", undergraduate);
 
 		        //サポート外の学部の成績表が入力された場合のエラー表示
-		        String[] service = {"商","経済","社会","国際","法","文","人間福祉","教育","理工"};
+		        String[] service = {"商","経済","社会","国際","法","文","人間福祉","教育","理工","神","工","理","生命環境"};
 		        error = true;
 		        for (String sev : service){
 		        	if ( sev.equals(undergraduate) ){
