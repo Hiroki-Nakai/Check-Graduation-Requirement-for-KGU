@@ -77,8 +77,12 @@ footer {
 }
 
 .sc {
-height:500px;
+height:75vh;
 overflow: scroll;
+}
+
+th,td{
+	height:30px;
 }
 
 .fixed01{
@@ -99,7 +103,7 @@ overflow: scroll;
 
 .fixed02{
   position: sticky;
-  top: 30px;
+  top: 31.5px;
   color: black;
   background: lightgrey;
   &:before{
