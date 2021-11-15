@@ -82,7 +82,7 @@ overflow: scroll;
 }
 
 th,td{
-	height:30px;
+	height:40px;
 }
 
 .fixed01{
@@ -103,7 +103,7 @@ th,td{
 
 .fixed02{
   position: sticky;
-  top: 31.5px;
+  top: 41.5px;
   color: black;
   background: lightgrey;
   &:before{
