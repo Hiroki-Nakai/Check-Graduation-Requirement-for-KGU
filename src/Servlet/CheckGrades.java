@@ -25,7 +25,7 @@ import org.apache.pdfbox.text.TextPosition;
 
 
 class Global{
-	  public static int test = 1;
+	  public static int test = 0;
 	  //テスト用のpdfが入力だったらtest=1
 	  //正式な成績通知書が入力だったら test=0
 }
