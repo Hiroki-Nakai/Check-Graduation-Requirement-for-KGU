@@ -236,6 +236,15 @@ for (int p=1; p<parent.length; p++){
 	<tr bgcolor="lightgrey">
 	<th class="fixed02">修得</th><th class="fixed02">履修</th>
 	</tr>
+	<!--
+	<tr bgcolor="lightgrey">
+	<th class="fixed01">　</th>
+	<th class="fixed01">科目の分野・系列</th>
+	<th class="fixed01">必要単位</th>
+	<th class="fixed01">修得</th>
+	<th class="fixed01">履修</th>
+	</tr>
+	 -->
 
 	<%
 	//あとなん単位必要かを出力させるための配列の作成
