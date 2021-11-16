@@ -229,6 +229,7 @@ for (int p=1; p<parent.length; p++){
 <td valign="top">
 <div class="sc">
 	<table border=1>
+
 	<tr bgcolor="lightgrey">
 	<th rowspan="2" class="fixed01">　</th><th rowspan="2" class="fixed01">科目の分野・系列</th><th rowspan="2" class="fixed01">必要単位</th>
 	<th colspan="2" class="fixed01">単位集計</th>
@@ -236,15 +237,16 @@ for (int p=1; p<parent.length; p++){
 	<tr bgcolor="lightgrey">
 	<th class="fixed02">修得</th><th class="fixed02">履修</th>
 	</tr>
+
 	<!--
 	<tr bgcolor="lightgrey">
 	<th class="fixed01">　</th>
 	<th class="fixed01">科目の分野・系列</th>
 	<th class="fixed01">必要単位</th>
-	<th class="fixed01">修得</th>
-	<th class="fixed01">履修</th>
+	<th class="fixed01">修得単位</th>
+	<th class="fixed01">履修単位</th>
 	</tr>
-	 -->
+	-->
 
 	<%
 	//あとなん単位必要かを出力させるための配列の作成

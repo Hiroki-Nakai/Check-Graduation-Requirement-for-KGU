@@ -76,9 +76,13 @@ footer {
 	border-bottom: none;/*線を消す*/
 }
 
+td, th{
+	height: 30px;
+}
+
 .sc {
-height: auto;
-overflow: scroll;
+	height: 75vh; /*auto, px, vh, %*/
+	overflow: scroll;
 }
 
 .fixed01{
@@ -99,7 +103,7 @@ overflow: scroll;
 
 .fixed02{
   position: sticky;
-  top: auto;
+  top: 31.5px;
   color: black;
   background: lightgrey;
   &:before{
