@@ -303,7 +303,7 @@ for (int p=1; p<parent.length; p++){
 		}
 		%>
 		<th bgcolor="lightgrey"><%= j+1%></th>
-		<td>
+		<td class="nowrap">
 		<%
 		for (int jj=0; jj<pos_uniq.indexOf(risyu_pos.get(j)); jj++){
 			out.println("　");
@@ -384,10 +384,13 @@ for (int p=1; p<parent.length; p++){
 
 <footer>
 <div style="text-align:center">
-<a href="./PrivacyPolicy" style="text-decoration:none;"><font size=4 color="white">
-プライバシーポリシー
-</font>
-</a>
+<a href="./PrivacyPolicy#use" style="text-decoration:none;"><font size=4 color="white">
+・利用規約
+</font></a>
+　
+<a href="./PrivacyPolicy#privacy" style="text-decoration:none;"><font size=4 color="white">
+・プライバシーポリシー
+</font></a>
 </div>
 </footer>
 

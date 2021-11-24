@@ -25,8 +25,14 @@
 </header>
 
 <main>
-<div style="text-align:center">
-<h2>プライバシーポリシー</h2>
+
+<table class="table-w"><tr>
+<td>　</td><td>
+
+<h2 id="use">利用規約</h2>
+-----------<br>
+
+<h2 id="privacy">プライバシーポリシー</h2>
 ※取得した成績通知書は，本サイトの卒業判定以外には利用いたしません。<br>
 ※取得した個人情報を第三者に譲渡することはありません。<br>
 
@@ -37,16 +43,23 @@
 
 <h2>プライバシーポリシーの変更について</h2>
 ※本ポリシーの内容は，ユーザーに通知することなく変更することがあります。<br>
-※変更後のプライバシーポリシーは，本サイトに掲載したときから効力を生じるものとします。<br>
-</div>
+※変更後のプライバシーポリシーは，本サイトに掲載したときから効力を生じるものとします。<br><br>
+
+
+</td><td>　</td>
+</tr></table>
+
 </main>
 
 <footer>
 <div style="text-align:center">
-<a href="./PrivacyPolicy" style="text-decoration:none;"><font size=4 color="white">
-プライバシーポリシー
-</font>
-</a>
+<a href="./PrivacyPolicy#use" style="text-decoration:none;"><font size=4 color="white">
+・利用規約
+</font></a>
+　
+<a href="./PrivacyPolicy#privacy" style="text-decoration:none;"><font size=4 color="white">
+・プライバシーポリシー
+</font></a>
 </div>
 </footer>
 
