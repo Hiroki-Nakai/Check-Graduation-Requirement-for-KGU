@@ -26,7 +26,7 @@
 
 <main>
 
-<table class="table-w"><tr>
+<table class="table-c table-w"><tr>
 <td>　</td><td>
 
 <h2 id="use">利用規約</h2>
