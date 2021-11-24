@@ -31,7 +31,7 @@
 <font size=4>
 <input type="file" accept=".pdf" name="submit_pdf" class="btn">
 </font>
-<br><br>
+<br>
 
 <!-- ※現在対応中の学部は、
 <%
@@ -52,10 +52,11 @@ for (String sev : service){
 ※判定結果に誤りがある場合がありますので、最終的な卒業可否の判断は各個人で行ってください。<br>
 -->
 
-<font size=4 color=red><b>
-※利用規約、プライバシーポリシーに同意のうえ判定結果をご覧ください<br>
-</b></font>
-<br><font size=4>
+<br>
+<h3>
+※利用規約、プライバシーポリシーに同意のうえ判定結果をご覧ください
+</h3>
+<font size=4>
 <a href="./PrivacyPolicy#use">
 利用規約はこちら
 </a><br>
