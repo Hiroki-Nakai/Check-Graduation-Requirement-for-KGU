@@ -27,12 +27,15 @@
 <main>
 
 <style>
-.table-w{
+.table-w {
     width: 100%;
     table-layout: fixed;
 }
-.table-w td:nth-child(2){
+.table-w td:nth-child(2) {
     width: 600px;
+}
+.word-r {
+	text-align: right;
 }
 </style>
 <table class="table-c table-w"><tr>
