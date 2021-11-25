@@ -35,13 +35,13 @@ if ( undergraduate ==null ){
 	out.println("成績通知書のpdfファイルをアップロードしてください");
 }
 else{
-	out.println( "<font color=\"red\">" + undergraduate + "学部" + "</font>" + "の卒業判定システムは現在開発中です");
+	out.println( "本サイトは、" + "<font color=\"red\">" + undergraduate + "学部" + "</font>" + "の成績通知書には対応していません。");
 }
 %>
 </h2>
 
 <br>
-※現在対応中の学部は、
+<!-- ※現在対応中の学部は、
 <%
 String[] service = {"商","経済","社会","国際","法","文","人間福祉","教育","理工","神","工","理","生命環境"};
 int count = 0;
@@ -52,7 +52,8 @@ for (String sev : service){
 	out.println("「" + sev + "学部」");
 	count++;
 }%>
-です。<br>
+です。<br> -->
+※本サイトは、総合政策学部の成績通知書には対応していません。<br>
 ※本サイトは，大学院の成績通知書には対応していません。<br>
 ※本サイトは，留学生の成績通知書には対応していません。<br>
 </div>
@@ -60,10 +61,13 @@ for (String sev : service){
 
 <footer>
 <div style="text-align:center">
-<a href="./PrivacyPolicy" style="text-decoration:none;"><font size=4 color="white">
-プライバシーポリシー
-</font>
-</a>
+<a href="./PrivacyPolicy#use" style="text-decoration:none;"><font size=4 color="white">
+・利用規約
+</font></a>
+　
+<a href="./PrivacyPolicy#privacy" style="text-decoration:none;"><font size=4 color="white">
+・プライバシーポリシー
+</font></a>
 </div>
 </footer>
 

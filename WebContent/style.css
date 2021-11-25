@@ -18,13 +18,7 @@
 	margin-right: auto;
 }
 
-.table-w {
-	width: 100%;
-	table-layout: fixed;
-}
-.table-w td:seond-child{
-	width: 100px;
-}
+.word-r { text-align: right; }
 
 body {
     margin: 0;
