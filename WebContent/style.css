@@ -18,7 +18,7 @@
 	margin-right: auto;
 }
 
-.word-r { text-align: right; }
+td.word-r { text-align: right; }
 
 body {
     margin: 0;
