@@ -406,7 +406,7 @@ td, th{
 
 	<br>
 	※卒業条件の詳細は、各学部の「履修心得」・「教育課程表」をご覧ください。<br>
-	※判定結果に誤りがある場合がありますので，最終的な卒業可否の判断は各個人で行ってください。<br>
+	※判定結果に誤りがある場合がありますので、最終的な卒業可否の判断は各個人で行ってください。<br>
 </td>
 
 </tr>
@@ -417,11 +417,11 @@ td, th{
 
 <footer>
 <div style="text-align:center">
-<a href="./PrivacyPolicy#use" style="text-decoration:none;"><font size=4 color="white">
+<a href="./Policy#use" style="text-decoration:none;"><font size=4 color="white">
 ・利用規約
 </font></a>
 　
-<a href="./PrivacyPolicy#privacy" style="text-decoration:none;"><font size=4 color="white">
+<a href="./Policy#privacy" style="text-decoration:none;"><font size=4 color="white">
 ・プライバシーポリシー
 </font></a>
 </div>

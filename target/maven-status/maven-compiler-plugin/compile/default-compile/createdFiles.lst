@@ -1,4 +1,4 @@
 Servlet\CheckGrades.class
 Servlet\PrintTextLocations.class
 Servlet\Global.class
-Servlet\PrivacyPolicy.class
+Servlet\Policy.class

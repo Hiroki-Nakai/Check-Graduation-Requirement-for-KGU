@@ -28,8 +28,9 @@
 
 <style>
 .table-w {
-    width: 100%;
+    width: 700px;
     table-layout: fixed;
+    border: 1px solid #1e90ff;
 }
 .table-w td:nth-child(2) {
     width: 650px;
@@ -41,10 +42,10 @@
 	text-align: center;
 }
 </style>
-<table class="table-c table-w">
-<tr><td>　</td><td class="word-c">
-<h2 id="use">利用規約</h2>
-</td><td>　</td></tr>
+
+<br>
+<table class="table-c table-w" id="use">
+<tr><td>　</td><td class="word-c"><h2>利用規約</h2></td><td>　</td></tr>
 
 <tr><td>　</td><td>
 関西学院大学 卒業判定サイト（以下「本サイト」）をご利用されるにあたり、以下の事項をよくお読みいただき、
@@ -74,12 +75,16 @@
 本利用規約の内容は、利用者に通知することなく変更することがあります。<br>
 変更後の利用規約は、本サイトに掲載したときから効力を生じるものとします。<br>
 
-<br><br>
 </td><td>　</td></tr>
 
-<tr><td>　</td><td class="word-c">
-<h2 id="privacy">プライバシーポリシー</h2>
-</td><td>　</td></tr>
+<tr><td>　</td><td class="word-r"><br>最終更新日：2021年11月26日<br><br></td><td>　</td></tr>
+
+</table>
+<br>
+
+<table class="table-c table-w" id="privacy">
+
+<tr><td>　</td><td class="word-c"><h2>プライバシーポリシー</h2></td><td>　</td></tr>
 
 <tr><td>　</td><td>
 プライバシーポリシーでは、本サイト上での個人情報の取り扱いについて規定しています。
@@ -111,23 +116,23 @@
 本プライバシーポリシーポリシーの内容は、利用者に通知することなく変更することがあります。<br>
 変更後のプライバシーポリシーは、本サイトに掲載したときから効力を生じるものとします。<br>
 
-
 </td><td>　</td></tr>
 
-<tr><td>　</td><td class="word-r"><br>最終更新日：2021年11月26日<br></td><td>　</td></tr>
+<tr><td>　</td><td class="word-r"><br>最終更新日：2021年11月26日<br><br></td><td>　</td></tr>
 
 </table>
+
 <br>
 
 </main>
 
 <footer>
 <div style="text-align:center">
-<a href="./PrivacyPolicy#use" style="text-decoration:none;"><font size=4 color="white">
+<a href="./Policy#use" style="text-decoration:none;"><font size=4 color="white">
 ・利用規約
 </font></a>
 　
-<a href="./PrivacyPolicy#privacy" style="text-decoration:none;"><font size=4 color="white">
+<a href="./Policy#privacy" style="text-decoration:none;"><font size=4 color="white">
 ・プライバシーポリシー
 </font></a>
 </div>

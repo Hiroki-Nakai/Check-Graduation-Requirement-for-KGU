@@ -41,31 +41,17 @@ else{
 </h2>
 
 <br>
-<!-- ※現在対応中の学部は、
-<%
-String[] service = {"商","経済","社会","国際","法","文","人間福祉","教育","理工","神","工","理","生命環境"};
-int count = 0;
-for (String sev : service){
-	if (count!=0){
-		out.println("・");
-	}
-	out.println("「" + sev + "学部」");
-	count++;
-}%>
-です。<br> -->
-※本サイトは、総合政策学部の成績通知書には対応していません。<br>
-※本サイトは，大学院の成績通知書には対応していません。<br>
-※本サイトは，留学生の成績通知書には対応していません。<br>
+※本サイトは、総合政策学部、大学院、留学生の成績通知書には対応していません。<br>
 </div>
 </main>
 
 <footer>
 <div style="text-align:center">
-<a href="./PrivacyPolicy#use" style="text-decoration:none;"><font size=4 color="white">
+<a href="./Policy#use" style="text-decoration:none;"><font size=4 color="white">
 ・利用規約
 </font></a>
 　
-<a href="./PrivacyPolicy#privacy" style="text-decoration:none;"><font size=4 color="white">
+<a href="./Policy#privacy" style="text-decoration:none;"><font size=4 color="white">
 ・プライバシーポリシー
 </font></a>
 </div>

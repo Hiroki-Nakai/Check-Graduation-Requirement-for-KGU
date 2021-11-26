@@ -190,6 +190,39 @@ for (int p=1; p<parent.length; p++){
 
 <main>
 
+<style>
+td, th{
+	height: 30px;
+}
+.sc {
+	height: 75vh; /*auto, px, vh, %*/
+	overflow: scroll;
+}
+.fixed01, .fixed02{
+  position: sticky;
+  top: 0;
+  color: black;
+  background: lightgrey;
+  white-space: nowrap;
+  &:before{
+    content: "";
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ccc;
+  }
+}
+.fixed01{
+  top: 0;
+}
+.fixed02{
+  top: 31.5px;
+}
+</style>
+
+
 <div style="text-align:center">
 <h2>判定結果</h2>
 </div>
@@ -200,12 +233,12 @@ for (int p=1; p<parent.length; p++){
 
 <td valign="top">
 	<table border=1>
-	<tr><th bgcolor="lightgrey">学部</th><td><%=undergraduate %>学部</td></tr>
-	<tr><th bgcolor="lightgrey">学科</th><td><%=program %></td></tr>
-	<tr><th bgcolor="lightgrey">専攻・コース</th><td><%=course %></td></tr>
-	<tr><th bgcolor="lightgrey">語学コード１</th><td><%=languages[0] %></td></tr>
-	<tr><th bgcolor="lightgrey">語学コード２</th>
-	<td>
+	<tr><th bgcolor="lightgrey" nowrap>学部</th><td nowrap><%=undergraduate %>学部</td></tr>
+	<tr><th bgcolor="lightgrey" nowrap>学科</th><td nowrap><%=program %></td></tr>
+	<tr><th bgcolor="lightgrey" nowrap>専攻・コース</th><td nowrap><%=course %></td></tr>
+	<tr><th bgcolor="lightgrey" nowrap>語学コード１</th><td nowrap><%=languages[0] %></td></tr>
+	<tr><th bgcolor="lightgrey" nowrap>語学コード２</th>
+	<td nowrap>
 	<%
 	if(languages.length!=1){
 		out.println(languages[1]);
@@ -231,11 +264,11 @@ for (int p=1; p<parent.length; p++){
 	<table border=1>
 
 	<tr bgcolor="lightgrey">
-	<th rowspan="2" class="fixed01">　</th><th rowspan="2" class="fixed01">科目の分野・系列</th><th rowspan="2" class="fixed01">必要単位</th>
-	<th colspan="2" class="fixed01">単位集計</th>
+	<th rowspan="2" class="fixed01">　</th><th rowspan="2" class="fixed01" nowrap>科目の分野・系列</th><th rowspan="2" class="fixed01" nowrap>必要単位</th>
+	<th colspan="2" class="fixed01" nowrap>単位集計</th>
 	</tr>
 	<tr bgcolor="lightgrey">
-	<th class="fixed02">修得</th><th class="fixed02">履修</th>
+	<th class="fixed02" nowrap>修得</th><th class="fixed02" nowrap>履修</th>
 	</tr>
 
 	<!--
@@ -303,7 +336,7 @@ for (int p=1; p<parent.length; p++){
 		}
 		%>
 		<th bgcolor="lightgrey"><%= j+1%></th>
-		<td class="nowrap">
+		<td nowrap>
 		<%
 		for (int jj=0; jj<pos_uniq.indexOf(risyu_pos.get(j)); jj++){
 			out.println("　");
@@ -373,7 +406,7 @@ for (int p=1; p<parent.length; p++){
 
 	<br>
 	※卒業条件の詳細は、各学部の「履修心得」・「教育課程表」をご覧ください。<br>
-	※判定結果に誤りがある場合がありますので，最終的な卒業可否の判断は各個人で行ってください。<br>
+	※判定結果に誤りがある場合がありますので、最終的な卒業可否の判断は各個人で行ってください。<br>
 </td>
 
 </tr>
@@ -384,11 +417,11 @@ for (int p=1; p<parent.length; p++){
 
 <footer>
 <div style="text-align:center">
-<a href="./PrivacyPolicy#use" style="text-decoration:none;"><font size=4 color="white">
+<a href="./Policy#use" style="text-decoration:none;"><font size=4 color="white">
 ・利用規約
 </font></a>
 　
-<a href="./PrivacyPolicy#privacy" style="text-decoration:none;"><font size=4 color="white">
+<a href="./Policy#privacy" style="text-decoration:none;"><font size=4 color="white">
 ・プライバシーポリシー
 </font></a>
 </div>
