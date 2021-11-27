@@ -82,7 +82,7 @@ footer {
 }
 
 .sc {
-	height: 75vh; /*auto, px, vh, %*/
+	height: 75vh; /*auto, px, vh, %*//*
 	overflow: scroll;
 }
 

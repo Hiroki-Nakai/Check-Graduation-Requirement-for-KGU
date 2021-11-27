@@ -271,16 +271,6 @@ td, th{
 	<th class="fixed02" nowrap>修得</th><th class="fixed02" nowrap>履修</th>
 	</tr>
 
-	<!--
-	<tr bgcolor="lightgrey">
-	<th class="fixed01">　</th>
-	<th class="fixed01">科目の分野・系列</th>
-	<th class="fixed01">必要単位</th>
-	<th class="fixed01">修得単位</th>
-	<th class="fixed01">履修単位</th>
-	</tr>
-	-->
-
 	<%
 	//あとなん単位必要かを出力させるための配列の作成
 	//足りていない単位数を格納
@@ -372,13 +362,16 @@ td, th{
 
 	<br>
 
+	<div style="border: 3px solid #1e90ff; border-left: 8px solid #1e90ff; padding: 10px;">
+
+
 	<font size=4>
 	<b>
 	<%
 	//あと取得すべき科目と単位を表示
 	if (lack_subjects.size() == 0){
 		if (now_risyu){
-			out.println("現在履修中の科目の単位を取得すれば，卒業に必要な単位数を満たします" + "<br>");
+			out.println("現在履修中の科目の単位を取得すれば、卒業に必要な単位数を満たします" + "<br>");
 		}
 		else{
 			out.println("既に卒業に必要な単位数を満たしています" + "<br>");
@@ -404,8 +397,11 @@ td, th{
 	%>
 	</b></font>
 
+	</div>
+
 	<br>
-	※卒業条件の詳細は、各学部の「履修心得」・「教育課程表」をご覧ください。<br>
+	※成績の通知日以降に履修された科目については、単位集計の履修に単位数が反映されません。<br>
+	※卒業条件の詳細は、所属学部の「履修心得」・「教育課程表」をご覧ください。<br>
 	※判定結果に誤りがある場合がありますので、最終的な卒業可否の判断は各個人で行ってください。<br>
 </td>
 
