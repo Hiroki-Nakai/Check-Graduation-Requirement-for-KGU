@@ -229,12 +229,16 @@ public class CheckGrades extends HttpServlet {
 
 	        request.setAttribute("text_pos", pos);
 
-	        document.close();
+	        if (document != null){
+	        	document.close();
+	        }
 			RequestDispatcher rd = request.getRequestDispatcher("WEB-INF/jsp/result.jsp");
 			rd.forward(request, response);
 		}
 		else{
-			document.close();
+			if (document != null){
+	        	document.close();
+	        }
 			RequestDispatcher rd = request.getRequestDispatcher("WEB-INF/jsp/error.jsp");
 			rd.forward(request, response);
 		}
