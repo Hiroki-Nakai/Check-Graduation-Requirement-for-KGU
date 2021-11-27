@@ -242,10 +242,6 @@ public class CheckGrades extends HttpServlet {
 			RequestDispatcher rd = request.getRequestDispatcher("WEB-INF/jsp/error.jsp");
 			rd.forward(request, response);
 		}
-
-		if (document != null){
-        	document.close();
-        }
 	}
 
 
@@ -262,6 +258,7 @@ public class CheckGrades extends HttpServlet {
 
 		 return Rtext;
 	}
+
 }
 
 
@@ -280,11 +277,6 @@ class PrintTextLocations extends PDFTextStripper {
 		stripper.writeText(document, dummy);
 
 		ArrayList<String> P = returnstr();
-
-		if (document != null){
-        	document.close();
-        }
-
 		return P;
 	}
 
