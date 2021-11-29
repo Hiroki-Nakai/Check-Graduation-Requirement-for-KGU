@@ -168,6 +168,17 @@ for (int p=1; p<parent.length; p++){
 <!DOCTYPE>
 <html>
 <head>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-108S0QYV17"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-108S0QYV17');
+</script>
+
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>関西学院大学 卒業判定サイト 判定結果</title>
 <link rel="stylesheet" href="<%=request.getContextPath() %>/style.css">
