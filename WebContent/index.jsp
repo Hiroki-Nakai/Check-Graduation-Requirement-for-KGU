@@ -5,15 +5,6 @@
 <html>
 <head>
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-WEXM79GB02"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-WEXM79GB02');
-</script>
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>関西学院大学 卒業判定サイト ファイルアップロード画面</title>
