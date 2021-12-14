@@ -5,6 +5,8 @@
 <html>
 <head>
 
+<meta name="google-site-verification" content="43yrAFWYQ_vW0iSHqPNvrAEXAWllbseK3hMF0YTFWo8" />
+
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-5WK3KY6P53"></script>
 <script>
